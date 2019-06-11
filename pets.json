@@ -1,0 +1,37 @@
+
+[
+  
+
+  {
+    "id": 1,
+    "name": "Fabian",
+    "description": "The cutest dog in the planet, like to play but hate PYTHON",
+    "price": 500,
+    "picture": "https://images.midilibre.fr/api/v1/images/view/5c43694f3e45467d8a373b03/original/image.jpg"
+    
+  },
+  {
+    "id": 2,
+    "name": "Johnny",
+    "description":"This dog is lovely , he will love you and protect you all his life",
+    "price": 250 ,
+    "picture": "https://i.pinimg.com/originals/89/e3/7f/89e37f4a1506fe9c25ee8284ef8acafe.jpg"
+    
+  },
+  {
+    "id": 3,
+    "name": "Vickita",
+    "description":"Cat always by your side ",
+    "price":200 ,
+    "picture": " https://resize.prod.docfr.doc-media.fr/r/1024,/ext/87450c07/nosanimaux/2017-04/smoothie.jpg?b52e3bf210" 
+    
+  },
+  {
+    "id": 4,
+    "name": "amoss",
+    "description":"Dog who loves to eat and play , he is also very kind",
+    "price":350 ,
+    "picture": "https://www.lemalinois.fr/images/chiot-berger-malinois.jpg"
+    
+  }
+]

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Your Cart{% endblock %}
+{% block content %}
+<h1>Welcome to Our Pet Shop!</h1>
+<div class="row pb-5">
+    <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="https://www.woopets.fr/assets/ckeditor/2017/sep/2632/originale/17.jpg" class="card-img-top">
+        </div>
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Our Pets</h5>
+          <a href="{{url_for('pets')}}" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>   
+     <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="https://remeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/01/20/node_32053/3326084/public/2019/01/20/B9718295592Z.1_20190120155334_001%2BGCDCQFTDM.1-0.png.jpg?itok=ml-Itjjd" class="card-img-top">
+        </div>
+
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Your Cart</h5>
+          <a href="{{url_for('cart')}}" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endblock %}
